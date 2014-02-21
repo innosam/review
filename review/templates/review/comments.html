@@ -1,0 +1,6 @@
+<h1>{{rev_list.0.product_id}}</h1>
+<ul>
+{% for rev in rev_list %}
+    <li>{{ rev.comment}}    rating: {{rev.rating}}</li>
+{% endfor %}
+</ul>
